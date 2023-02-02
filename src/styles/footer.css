@@ -1,0 +1,66 @@
+.footer-images{
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.image-container{
+    display: grid;
+	grid-template-columns: repeat(3, auto);
+    background-color: #C3E3FE;
+    width: 100%;
+    padding: 2%;
+}
+
+.tech4dev{
+   margin-top: 10%;
+   margin-left: 30%;
+}
+
+.nwt{
+    margin-left: 34%;
+}
+
+.microsoft{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.footer-logo{
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.link-list{
+    list-style: none;
+}
+li{
+    padding: 8px 0;
+    /* text-decoration: none; */
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding-top: 0;
+    margin-top: -3%;
+}
+.left-links,  .right-links{
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
